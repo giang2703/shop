@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANA SHOP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <!-- javascript -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    
+</head>
+<body>
+    <!--myheader-->
+    <section class="myheader">
+        <div class="container py-3">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="images/Logo.png" alt="logo" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Từ khóa tìm kiếm" 
+                            aria-label="Từ khóa tìm kiếm"
+                            aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row ">
+                                <div class="col-3">
+                                    <div class="fs-2 danger">
+                                        <i class="fa-solid fa-phone " style="color: #ffc0cb;"></i>
+                                    </div>
+
+                                </div>
+                                <div class="col-9">
+                                    Tư vấn hỗ trợ<br>
+                                    <strong class="danger">0987654321</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="fs-2 danger">
+                                        <i class="fa-regular fa-user" style="color: #ffc0cb;"></i>
+                                    </div>
+                            
+                                </div>
+                                <div class="col-9">
+                                    Xin chào!<br>
+                                    <strong class="danger">Đăng nhập</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="row">
+                        <div class="col-3">
+                            <a href="#" class="position-relative">
+                                <span class="fs-3"><i class="fa-regular fa-heart" style="color: #CB88EA;"></i></span>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                    
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="position-relative">
+                                <span class="fs-3"><i class="fa-solid fa-cart-shopping" style="color: #CB88EA;"></i></span>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                    
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="position-relative">
+                                <span class="fs-3"><i class="fa-solid fa-shuffle" style="color: #CB88EA;"></i></span>
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    0
+                                    
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--mymainmenu-->
+    <section>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <div class="col-md-3 text-list py-3">
+                    <a class="nav-link text-list" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                    <i class="fa-solid fa-list"></i> DANH MỤC SẢN PHẨM</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item " href="#">Thời trang mùa hè</a></li>
+                        <li><a class="dropdown-item " href="#">Thời trang mùa đông</a></li>
+                        <li><a class="dropdown-item " href="#">Túi xách nữ</a></li>
+                        
+                    </ul>
+                </div>
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ">
+                    <a class="nav-link text-list" aria-current="page" href="#">Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-list" href="#">Giới thiệu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-list" href="#">Sản phẩm</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-list" href="#">Tin tức</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-list" href="#">Tuyển dụng</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-list" href="#">Liên hệ</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+    <!--mymaincontent-->
+    <section class="mymaincontent py-3">
+        <div class="container">
+            <!--Slider-->
+            <div class="slider mb-3">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+            </div>
+
+            <!-- icon free ship -->
+            <div class="free"> 
+                <div class="free-ship">
+                    <i class="fa-solid fa-truck" style="color: #ffc0cb;"></i>
+                    <h3>Miễn phí vận chuyển</h3>
+                </div>
+                <div class="free-ship">
+                    <i class="fa-solid fa-circle-check " style="color: #ffc0cb;"></i>
+                    <h3>Đổi trả trong 7 ngày</h3>
+                </div>
+                <div class="free-ship">
+                    <i class="fa-solid fa-tags " style="color: #ffc0cb;"></i>
+                    <h3>Ưu đãi khách hàng</h3>
+                </div>
+                
+            </div>
+            <hr>
+            <!-- icon free ship -->
+
+
+            <!--cate-list-->
+            <div class="cate-list mb-5">
+                <div class="row">
+                    <div class="large-12 columns">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/tui1.jpg" alt="sp1" class="img-fluid">
+                                    <p>Túi xách</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/c2.jpg" alt="sp1" class="img-fluid">
+                                    <p>Áo kiểu</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/aolendai2.jpg" alt="sp1" class="img-fluid">
+                                    <p>Áo len</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/vongtay.jpg" alt="sp1" class="img-fluid">
+                                    <p>Vòng tay</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/tui2.jpg" alt="sp1" class="img-fluid">
+                                    <p>Túi</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/c2.jpg" alt="sp1" class="img-fluid">
+                                    <p>Áo kiểu</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/thoitrang1.png" alt="sp1" class="img-fluid">
+                                    <p>Đầm </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/travel.jpg" alt="sp1" class="img-fluid">
+                                    <p>Váy</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/tui1.jpg" alt="sp1" class="img-fluid">
+                                    <p>Túi xách</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/dobo.jpg" alt="sp1" class="img-fluid">
+                                    <p>Quần áo</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/travel.jpg" alt="sp1" class="img-fluid">
+                                    <p>Váy</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/vongtay.jpg" alt="sp1" class="img-fluid">
+                                    <p>Vòng tay</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/tui2.jpg" alt="sp1" class="img-fluid">
+                                    <p>Túi</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="category-icon">
+                                    <img src="images/dobo.jpg" alt="sp1" class="img-fluid">
+                                    <p>Quần áo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--THỜI TRANG-->
+            
+            <div class="product-list mb-3">
+                <div class="product_title border-bottom">
+                    <div class="row">
+                        <hr>
+                        <p class="fashion">THỜI TRANG</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="product_list">
+                    
+                    <div class="row">
+                        <div class="col-md-3 mb-3 product-container">
+                            <img src="images/aolendai2.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Áo len</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-3 ">
+                            <img src="images/travel.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Đầm đi biển</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-3 ">
+                            <img src="images/thoitrang1.png" alt="giay" class="img-fluid w-100 img">
+                            <p>Đầm lolita</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-3 ">
+                            <img src="images/c2.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Áo kiểu</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-3">
+                            <img src="images/dobo.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Set áo & quần jeans</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-3">
+                            <img src="images/travel2.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Áo baby doll</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-3">
+                            <img src="images/thoitrang.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Set áo & váy lolita</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mb-3">
+                            <img src="images/aolen.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Áo sweater</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Túi xách , phụ kiện-->
+            <div class="product-list mb-3">
+                <div class="product_title border-bottom">
+                    <div class="row">
+                        <hr>
+                        <p class="fashion">TÚI XÁCH & PHỤ KIỆN</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="product_list">
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <img src="images/tui1.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Túi xách nữ</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3 mb-3">
+                            <img src="images/tui2.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Túi xách nữ</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3 mb-3">
+                            <img src="images/tui4.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Túi xách nữ</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3 mb-3">
+                            <img src="images/tui3.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Túi xách nữ</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3 mb-3">
+                            <img src="images/vongtay1.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Vòng tay </p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3 mb-3">
+                            <img src="images/vongtay.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Vòng tay </p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3 mb-3">
+                            <img src="images/nhan.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Nhẫn</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+            
+                        <div class="col-md-3 mb-3">
+                            <img src="images/dep4.jpg" alt="giay" class="img-fluid w-100 img">
+                            <p>Khuyên tai</p>
+                            <p class="h3"><span class="price">250000 <sup>đ</sup></span> <span class="price-discount">190000 <sup>đ</sup></span></p>
+                            <div>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                <i class="fa-solid fa-heart-circle-plus"></i>
+                                <i class="fa-solid fa-share-from-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--myfooter-->
+    <section class="myfooter pink py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <p class="fs-5">HANA SHOP</p>
+                    <ul class="list-menu">
+                    
+                        <li class="li_menu"><a href="/" title="Trang chủ">Trang chủ</a></li>
+                    
+                        <li class="li_menu"><a href="/gioi-thieu" title="Giới thiệu">Giới thiệu</a></li>
+                    
+                        <li class="li_menu"><a href="/collections/all" title="Sản phẩm">Sản phẩm</a></li>
+                    
+                        <li class="li_menu"><a href="/tin-moi-nhat" title="Tin mới nhất">Tin mới nhất</a></li>
+                    
+                   
+                    
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <p class="fs-5">VỀ CHÚNG TÔI</p>
+                    <ul class="list-menu">
+                    
+                      
+                        <li class="li_menu"><a href="/tin-moi-nhat" title="Tin mới nhất">Tin mới nhất</a></li>
+                    
+                        <li class="li_menu"><a href="/cau-hoi-thuong-gap" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+                    
+                        <li class="li_menu"><a href="/tuyen-dung" title="Tuyển dụng">Tuyển dụng</a></li>
+                    
+                        <li class="li_menu"><a href="/lien-he" title="Liên hệ">Liên hệ</a></li>
+                    
+                    </ul>
+                </div>
+
+                
+
+                <div class="col-md-3">
+                    <p class="fs-5">THEO DÕI CHÚNG TÔI</p>
+                    <ul class="list-menu">
+                    
+                        <li class="li_menu"><a href="#" title="Trang chủ"><i class="fa-brands fa-facebook" style="color: rgb(0, 110, 255);"></i> Facebook</a></li>
+                    
+                        <li class="li_menu"><a href="#" title="Giới thiệu"><i class="fa-brands fa-threads" style="color:#070a0f;"></i> Threads</a></li>
+                    
+                        <li class="li_menu"><a href="#" title="Sản phẩm"><i class="fa-brands fa-youtube" style="color:#ff2626;"></i> Youtube</a></li>
+                    
+                        <li class="li_menu"><a href="#" title="Tin mới nhất"><i class="fa-brands fa-tiktok" style="color:#070a0f;"></i> Tiktok</a></li>
+              
+                    
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <p class="fs-5">LIÊN HỆ CHÚNG TÔI</p>
+                    <ul class="list-menu">
+                    
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        </div>
+                        <button type="button" class="btn btn-light">Gửi</button>
+                    
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                dots: false,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 4,
+                       
+                    },
+                    600: {
+                        items: 6,
+                        
+                    },
+                    1000: {
+                        items: 8,
+                        
+                        loop: false,
+                        margin: 20
+                    }
+                }
+            })
+        })
+    </script>
+    
+</html>
